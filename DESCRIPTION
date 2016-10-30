@@ -1,0 +1,10 @@
+Package: sift
+Type: Package
+Title: Sifts through data using a web interface for dynamically created frequency tables.
+Version: 0.1.0
+Author: Matt Sandy
+Maintainer: Matt Sandy <matt@appup.io>
+Description: This project will expand to a full fledged web app for exploring data through tables and graphs
+License: Proprietary license for now
+LazyData: FALSE
+Depends: jsonlite, httpuv

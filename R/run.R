@@ -18,7 +18,7 @@ r <- function(df,method="table",ip="127.0.0.1",port=9454) {
             message$response <-response
           }
           #ws$send(toJSON(ls(envir = .GlobalEnv)))
-          ws$send(toJSON(message,pretty = TRUE,force = TRUE))
+          ws$send(toJSON(message,force = TRUE))
         })
       }
     )

@@ -1,18 +1,5 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Build and Reload Package:  'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
-
+library(httpuv)
+library(jsonlite)
 r <- function(df,method="table",ip="127.0.0.1",port=9454) {
   message(paste0("Point your browser to ","http://sift.rlang.io/table/#",ip,":",port))
   browseURL(paste0("http://sift.rlang.io/table/#",ip,":",port))

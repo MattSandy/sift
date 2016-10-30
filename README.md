@@ -3,6 +3,7 @@
 Sifts through an R data dataframe by dynamically creating frequency tables in a web interface.
 
 ```
+devtools::install_github("MattSandy/sift")
 sift::r(mtcars)
 ```
 
